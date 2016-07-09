@@ -131,14 +131,10 @@ margin-left: 44px;
     color: gray;
     border-radius: 5px;
     border: none;
+    margin-left: 43px;
 }
 
-div .smallcontener#ph1 .title{
 
-   
-    float: left;
-    
-}
 
 .smallcontener{
 	float: left;
@@ -147,22 +143,31 @@ div .smallcontener#ph1 .title{
 	width: 33.3333%;
 }
 
-.smallcontener#ph1 .picture{
-	float: left;
-    clear: both;
-    padding-left: 43px;
+#ph2 .text{
+	height: 160px; !important
 }
 
-.smallcontener#ph1 .text{
-	
-    float: left;
-    clear: both;
-    margin-left: 44px;
-    padding-top: 20px;
+
+
+#ph2 nav ul li:before{
+	content: "\2023 \0020";
+	    font-size: x-large;
 }
 
-.smallcontener#ph1 .botton{
-	float: left;
-    clear: both;
-    padding-left: 43px;
+#ph2 nav ul{
+	list-style-type: none;
+    font-size: 18px;
+}
+
+#ph2 nav ul li a{
+	text-decoration: none;
+	color: rgba(11, 11, 169, 0.8);
+}
+
+#ph2 nav ul li{
+	border-bottom: 1px dotted;
+}
+
+#ph2 nav ul li:nth-child(3){
+	border-style: none;!important
 }
