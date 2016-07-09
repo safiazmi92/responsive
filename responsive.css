@@ -171,3 +171,74 @@ margin-left: 44px;
 #ph2 nav ul li:nth-child(3){
 	border-style: none;!important
 }
+
+
+/*this is the forth part*/
+
+#forth{
+	height:260px;
+color:#808080;	
+background-color: rgba(62, 49, 49, 0.24);
+}
+
+
+.forth{
+	float: left;
+	height: 260px;
+	width: 33.3333%;
+}
+
+.headtitle{
+	display: inline-block;
+    font-size: 22px;
+    margin: 33px;
+    color: gray;
+}
+
+#secondlist ul{
+	list-style-type: none;
+	padding-left: 34px;
+    margin-top: 0px;
+    font-size: 16px;
+}
+
+#secondlist ul li a{
+	text-decoration: none;
+	color: #808080;
+	
+	
+	
+	}
+
+#head2{
+	margin-left: 0px;
+}
+
+#forth p{
+	margin-top: -4px;
+}
+
+h11{
+	color: black;
+    display: inline-block;
+    margin-top: -11px
+}
+
+date{
+	display: block;
+    margin-top: -5px;
+    margin-bottom: 4px;
+}
+
+/*footer*/
+footer{
+	height: 60px;
+	background-color: rgba(62, 49, 49, 0.24);
+color:#808080;
+}
+
+h8{
+	display: inline-block;
+    margin: 20px;
+}
+
