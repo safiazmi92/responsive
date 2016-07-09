@@ -1,0 +1,168 @@
+body{
+	background-color: black;
+	margin: 0;
+}
+
+header{
+	height: 95px;
+}
+#logo{
+	padding: 14px;
+}
+
+
+
+#contner{
+	width: 960px!important;
+	margin: 0 auto;
+background-color: white;
+}
+
+#phonenumber{
+	float: right;
+	
+	
+	
+}
+#list{
+	float: right;
+	list-style-type: none;
+margin-top: -55px;
+padding-right: 20px;
+}
+
+
+header nav ul{
+	font-size: 16px;
+}
+
+
+header  nav  ul li{
+	display: inline;
+	
+}
+header nav ul li a{
+	text-decoration: none;
+	color: gray;
+	margin-right: 24px;
+
+
+}
+
+header  nav ul li a:hover{
+	background-image: url(image/hover.png);
+	
+}
+
+/*the second part*/
+#backgroundimg{
+	background-image: url('image/business-home_11.jpg');
+	height: 459px;
+	width: 960px;
+}
+
+h1{
+	
+    font-size: 30px;
+    margin:0px;
+    color: white;
+    padding: 70px;
+  }
+   
+
+h2{
+	display: inline-block;
+    font-size: 40px;
+    color: white;
+    margin: 0px;
+    padding-left: 66px;
+    float: left;
+    margin-top: -70px;
+}
+
+
+
+
+.clearfix:after {
+   content: ""; 
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+#butimg img{
+	    padding-left: 70px;
+}
+
+/*the thered part*/
+
+#thered3part{
+	height: 625px;
+    margin-left: -21px;
+    width: 981px;
+}
+
+
+
+.title{
+	font-size: 30px;
+	color:gray;
+	display:inline-block;
+	margin: 45px;
+}
+
+.picture{
+	display: inline-block;
+	padding-left: 43px;
+	
+}
+.text{
+width:265px;
+display: inline-block;
+height: 210px;
+margin-left: 44px;
+    padding-top: 20px;
+}
+
+.botton button{
+	display: inline-block;
+	font-size: 18px;
+    color: gray;
+    border-radius: 5px;
+    border: none;
+}
+
+div .smallcontener#ph1 .title{
+
+   
+    float: left;
+    
+}
+
+.smallcontener{
+	float: left;
+	display: inline-block;
+	height: 625px;
+	width: 33.3333%;
+}
+
+.smallcontener#ph1 .picture{
+	float: left;
+    clear: both;
+    padding-left: 43px;
+}
+
+.smallcontener#ph1 .text{
+	
+    float: left;
+    clear: both;
+    margin-left: 44px;
+    padding-top: 20px;
+}
+
+.smallcontener#ph1 .botton{
+	float: left;
+    clear: both;
+    padding-left: 43px;
+}
