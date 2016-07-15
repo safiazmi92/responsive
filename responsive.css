@@ -50,8 +50,9 @@ header nav ul li a{
 }
 
 header  nav ul li a:hover{
-	background-image: url(image/hover.png);
-	
+	background-image: url(image/hover.png) ;
+	background-attachment: inherit;
+	background-size: cover;
 }
 
 /*the second part*/
@@ -214,9 +215,15 @@ background-color: rgba(62, 49, 49, 0.24);
 	margin-left: 0px;
 }
 
-#forth p{
+#forth h123 h9{
 	margin-top: -4px;
 }
+
+h123{
+	color: blue;
+}
+
+
 
 h11{
 	color: black;
